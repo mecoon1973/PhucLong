@@ -17,9 +17,10 @@ function displayImg(n) {
     if (n > img.length) {
         imgCurrent = 1;
     }
-    if (n < img) {
+    if (n < 1) {
         imgCurrent = img.length;
     }
+
     for (i = 0; i < img.length; i++) {
         img[i].style.display = "none";
     }
